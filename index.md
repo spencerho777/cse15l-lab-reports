@@ -1,6 +1,6 @@
 # This is the home page
 ***
-[Link to other page] https://spencerho777.github.io/cse15l-lab-reports/home.md
+[Link to other page](https://spencerho777.github.io/cse15l-lab-reports/home.md)
 
 
 > Sometimes it really do be like that

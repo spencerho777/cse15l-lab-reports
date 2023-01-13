@@ -1,6 +1,6 @@
 
 
-** # Lab Report 1 - VSCode, Remote Connecting, CMD Line**
+# Lab Report 1 - VSCode, Remote Connecting, CMD Line
 
 In this blog post, I will describe how to install VSCode, connect remotely to a computer, and run some commands on that computer.
 
@@ -18,7 +18,7 @@ If you already have a password for your cs15l account, skip this next step
 ***
 Now, we need to reset the password of your cs15l account. Go to the following [link](https://sdacs.ucsd.edu/~icc/index.php) and look up your account with your username and student id. Click the reset password button and follow the instructions to create a new password. Wait 15 minutes before continuing to ensure your password has been reset.
 
-##Remotely Connecting
+## Remotely Connecting
 ***
 Find your account username from the account look up page (circled in red) and remember the last 3 digits of the username. Then, in the terminal on VSCode, type in the following command:
 
@@ -28,7 +28,7 @@ You will be then prompted to enter in your password for the account. You should 
 [Image]
 Congratulations! You have successfully remotely connected to a computer at UCSD.
 
-##Running Commands
+## Running Commands
 ***
 Now that you are remotely connected to a computer, it’s time to run some commands. Here are a few commands to try out:
 

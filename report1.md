@@ -7,7 +7,7 @@ In this blog post, I will describe how to install VSCode, connect remotely to a 
 ## Installing VSCode
 ***
 Navigate to the VSCode website and find the [download page](https://code.visualstudio.com/download) You should be presented with a screen like this
-[Image]
+![Download screen](/assets/report1/vscodedownloadpage.png)
 
 Once the zip file downloads, open it, and finish the installation of VSCode by following the instructions of the setup wizard. When you open the application, open up the terminal in VSCode by clicking the icon marked by the red arrow or type Ctrl + J for Windows / Cmd + J for MacOS
 [Image]

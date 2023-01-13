@@ -27,7 +27,7 @@ Then, in the terminal on VSCode, type in the following command:
 `ssh cs15lwi23(last 3 digits go here)@ieng6.ucsd.edu`
 
 You will be then prompted to enter in your password for the account. You should then be presented with the following screen.
-![Image](/assets/report1/sshsucces.png)
+![SSHSuccess](/assets/report1/sshsuccess.png)
 Congratulations! You have successfully remotely connected to a computer at UCSD.
 
 ## Running Commands

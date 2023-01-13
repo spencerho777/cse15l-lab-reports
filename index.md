@@ -1,15 +1,8 @@
-# This is the home page
+# Welcome to my CSE15L Lab Reports
 ***
-[Link to other page](https://spencerho777.github.io/cse15l-lab-reports/home.md)
+> What a wonderful home page
 
 
-> Sometimes it really do be like that
-
-* You
-* Need
-* Help
-
-```
-# my first program
-print "Hello, World"
-```
+## Reports
+***
+[Lab Report 1](https://spencerho777.github.io/cse15l-lab-reports/report1.md)

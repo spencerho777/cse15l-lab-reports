@@ -3,4 +3,4 @@
 
 
 ## Reports
-[Lab Report 1](https://spencerho777.github.io/cse15l-lab-reports/report1.md)
+[Lab Report 1](https://spencerho777.github.io/cse15l-lab-reports/report1.html)

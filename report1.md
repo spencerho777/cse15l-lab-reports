@@ -10,7 +10,7 @@ Navigate to the VSCode website and find the [download page](https://code.visuals
 ![Download screen](/assets/report1/vscodedownloadpage.png)
 
 Once the zip file downloads, open it, and finish the installation of VSCode by following the instructions of the setup wizard. When you open the application, open up the terminal in VSCode by clicking the icon marked by the red arrow or type Ctrl + J for Windows / Cmd + J for MacOS
-[Image]
+![VSCode Open Screen](/assets/report1/vscodeopen.png)
 
 If you already have a password for your cs15l account, skip this next step
 
@@ -20,12 +20,14 @@ Now, we need to reset the password of your cs15l account. Go to the following [l
 
 ## Remotely Connecting
 ***
-Find your account username from the account look up page (circled in red) and remember the last 3 digits of the username. Then, in the terminal on VSCode, type in the following command:
+Find your account username from the account look up page (circled in red) and remember the last 3 digits of the username.
+![Account Lookup](/assets/report1/accountlookup.png)
 
+Then, in the terminal on VSCode, type in the following command:
 `ssh cs15lwi23(last 3 digits go here)@ieng6.ucsd.edu`
 
 You will be then prompted to enter in your password for the account. You should then be presented with the following screen.
-[Image]
+![Image](/assets/report1/sshsucces.png)
 Congratulations! You have successfully remotely connected to a computer at UCSD.
 
 ## Running Commands
@@ -39,6 +41,6 @@ Now that you are remotely connected to a computer, it’s time to run some comma
 `cat /home/linux/ieng6/cs15lwi23/public/hello.txt` reads the hello.txt file
 
 Here are some sample inputs and outputs
-[Image]
+![Cmd Line Inputs/Outputs](/assets/report1/examplecmdlineoutput.png)
 
 And that’s it! You have now successfully installed VSCode, connected remotely to a computer, and ran some commands on that computer.

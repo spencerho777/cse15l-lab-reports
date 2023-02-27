@@ -23,34 +23,34 @@ Now that I have lab7 on the remote, I can compile and run the. java files.
 First, I had to navigate into the lab7 directory, so I used
 `$ cd lab7`
 
-Then, I copied the following javac command from Week 3 with <cmd> + <c>.
+Then, I copied the following javac command from Week 3 with \<cmd\> + \<c\>.
 `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`
-I put this command into the terminal with <cmd> + <v> This compiles all the java files and links the junit library to the file.
+I put this command into the terminal with \<cmd\> + \<v\> This compiles all the java files and links the junit library to the file.
 
-After, I went back to week 3 and copied the java command (again with <cmd> + <c> and <cmd> + <v> respectively:
+After, I went back to week 3 and copied the java command (again with \<cmd\> + \<c\> and \<cmd\> + \<v\> respectively:
 `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore`
 And added the class name of `ListExamplesTests` to the end. In all, this step produces the following result.
 
 ![step6res](/assets/report4/step6res.png)
 
 The final key presses are as follows:
-*“cd lab7”, <enter>, <click on chrome window>, <drag mouse over javac command>, <cmd> + <c>, <click on terminal window>, <cmd> + <v>, <enter>, <click on chrome window>, <drag mouse over java command>, <cmd> + <c>, <click on terminal window>, <cmd> + <v>, “ListExamplesTests”, <enter>*
+*“cd lab7”, \<enter\>, \<click on chrome window\>, \<drag mouse over javac command\>, \<cmd\> + \<c\>, \<click on terminal window\>, \<cmd\> + \<v\>, \<enter\>, \<click on chrome window\>, \<drag mouse over java command\>, \<cmd\> + \<c\>, \<click on terminal window\>, \<cmd\> + \<v\>, “ListExamplesTests”, \<enter\>*
 
 ## Step 7 - fix
 Now, we need to fix the bug in the code. In this case, the problem is that on line 43, inside the while loop, the wrong variable is incremented. The program increments index1 instead of index 2.
 We open up the file with `nano ListExamples.java`
-Then in order to quickly navigate to the incorrect line, we do *<ctrl> + <->*, then type in *43, 13*, then *<enter>*.
+Then in order to quickly navigate to the incorrect line, we do *\<ctrl\> + \<-\>*, then type in *43, 13*, then *\<enter\>*.
 This is what it should look like:
 ![step7res](/assets/report4/step7res.png)
 
-To change the error, we just need to change the 1 to a 2, so do *<backspace>, <2>*
-Then, we need to save and exit the editor with <ctrl> + <o>, <enter>, <ctrl> + <x>
+To change the error, we just need to change the 1 to a 2, so do *\<backspace\>, \<2\>*
+Then, we need to save and exit the editor with \<ctrl\> + \<o\>, \<enter\>, \<ctrl\> + \<x\>
 
 ## Step 8 - pass the tests
 Now, we need to rerun the tests. To do this, we can use the up arrow key to reuse our previous commands.
 
-Keypresses: *<up>, <up>, <up>, <enter>* which goes up 3 commands in history and runs the javac command
-Keypresses: *<up>, <up>, <up>, <enter>* which goes up 3 commands in history and runs the java command
+Keypresses: *\<up\>, \<up\>, \<up\>, \<enter\>* which goes up 3 commands in history and runs the javac command
+Keypresses: *\<up\>, \<up\>, \<up\>, \<enter\>* which goes up 3 commands in history and runs the java command
 
 This should produce the following result:
 ![step8res](/assets/report4/step8res.png)

@@ -1,5 +1,3 @@
-
-
 # Lab Report 3 - Labs Done Quick
 
 In this blog post, I will be going over the steps in order to complete the Labs Done Quick Challenge in Week 7.
@@ -38,7 +36,9 @@ The final key presses are as follows:
 
 ## Step 7 - fix
 Now, we need to fix the bug in the code. In this case, the problem is that on line 43, inside the while loop, the wrong variable is incremented. The program increments index1 instead of index 2.
+
 We open up the file with `nano ListExamples.java`
+
 Then in order to quickly navigate to the incorrect line, we do *\<ctrl\> + \<-\>*, then type in *43, 13*, then *\<enter\>*.
 This is what it should look like:
 ![step7res](/assets/report4/step7res.png)
@@ -50,6 +50,7 @@ Then, we need to save and exit the editor with \<ctrl\> + \<o\>, \<enter\>, \<ct
 Now, we need to rerun the tests. To do this, we can use the up arrow key to reuse our previous commands.
 
 Keypresses: *\<up\>, \<up\>, \<up\>, \<enter\>* which goes up 3 commands in history and runs the javac command
+
 Keypresses: *\<up\>, \<up\>, \<up\>, \<enter\>* which goes up 3 commands in history and runs the java command
 
 This should produce the following result:
@@ -62,8 +63,11 @@ $ git add .
 $ git commit -m “fix”
 $ git push origin main
 ```
+
 `git add .` adds all our changed files to our commit
+
 `git commit -m “fix”` creates a commit with the message of “fix”
+
 `git push origin main` pushes our commit
 
 If everything was done right, you should see:

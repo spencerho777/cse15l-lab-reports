@@ -1,4 +1,4 @@
-# Lab Report 3 - Labs Done Quick
+# Lab Report 4 - Labs Done Quick
 
 In this blog post, I will be going over the steps in order to complete the Labs Done Quick Challenge in Week 7.
 
